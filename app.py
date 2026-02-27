@@ -5,7 +5,7 @@ app= Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Flask running from azure"
+    return "Flask running on azure"
 
 if __name__ == "__main__":
   app.run()
